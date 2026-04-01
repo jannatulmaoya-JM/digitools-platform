@@ -448,6 +448,143 @@ function App() {
         </div>
       </div>
     </div>
+
+     {/* Pricing Section */}
+     <div className="price w-full py-[120px] px-[20px] lg:px-[200px] bg-[#FFFFFF] font-poppins">
+      <div className="price-Container flex flex-col items-center">
+        <div className="price-Content text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#0F172A] mb-4">Simple, Transparent Pricing</h2>
+          <p className="text-lg text-[#0F172A] opacity-80 max-w-2xl mx-auto">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+        </div>
+        
+       <div className="flex flex-col md:flex-row justify-center items-center gap-8 py-10 font-poppins">
+  
+ 
+       <div className="price-card w-[300px] h-[380px] bg-gray-200 border border-gray-100 rounded-[2rem] p-6 shadow-lg flex flex-col justify-between text-left">
+    <div className="card-item">
+      <h3 className="text-xl font-bold text-[#0F172A] mb-1">Starter</h3>
+      <p className="text-gray-600 text-[11px] mb-4">Perfect for getting started</p>
+      
+      <div className="flex items-baseline mb-5">
+        <span className="text-3xl font-bold text-[#0F172A]">$0</span>
+        <span className="text-xs font-medium text-gray-600 ml-1">/Month</span>
+      </div>
+
+      <ul className="space-y-1 mb-6">
+        <li className="flex items-center text-gray-600 text-xs">
+          <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+          Access to 10 free tools
+        </li>
+        <li className="flex items-center text-gray-600 text-xs">
+          <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+          Basic templates
+        </li>
+        <li className="flex items-center text-gray-600 text-xs">
+          <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+          Community support
+        </li>
+        <li className="flex items-center text-gray-600 text-xs">
+          <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+          1 project per month
+        </li>
+      </ul>
+    </div>
+    
+    <button className="w-full py-3 bg-linear-to-r from-[#4F39F6] to-[#b23fc5] text-white rounded-full font-bold text-sm shadow-md mt-auto">
+      Get Started Free
+    </button>
+       </div>
+
+ 
+       <div className="price-card relative w-[300px] h-[380px] bg-linear-to-r from-[#4F39F6] to-[#b23fc5] p-6 pt-10 rounded-[2rem] shadow-2xl flex flex-col justify-between text-left">
+   
+    <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#FFEFD5] text-[#BB4D00] text-[8px] font-bold px-3 py-1 rounded-full uppercase tracking-wider whitespace-nowrap shadow-md z-10">
+      Most Popular
+    </div>
+
+    <div className="card-item text-white">
+      <h3 className="text-xl font-bold mb-1">Pro</h3>
+      <p className="text-white opacity-80 text-[11px] mb-4">Best for professionals</p>
+      
+      <div className="flex items-baseline mb-5">
+        <span className="text-3xl font-extrabold text-white">$29</span>
+        <span className="text-xs font-medium opacity-80 ml-1">/Month</span>
+      </div>
+
+      <ul className="space-y-1 mb-6">
+        <li className="flex items-center text-[11px]">
+          <span className="material-symbols-outlined text-white mr-2 text-base">check</span>
+          Access to all premium tools
+        </li>
+        <li className="flex items-center text-[11px]">
+          <span className="material-symbols-outlined text-white mr-2 text-base">check</span>
+          Unlimited templates
+        </li>
+        <li className="flex items-center text-[11px]">
+          <span className="material-symbols-outlined text-white mr-2 text-base">check</span>
+          Priority support
+        </li>
+        <li className="flex items-center text-[11px]">
+          <span className="material-symbols-outlined text-white mr-2 text-base">check</span>
+          Unlimited projects
+        </li>
+      </ul>
+    </div>
+
+    <button className="w-full py-3 bg-white text-[#4F39F6] rounded-full font-bold text-sm shadow-md mt-auto">
+      Start Pro Trial
+    </button>
+       </div>
+
+        <div className="price-card w-[300px] h-[380px] bg-gray-200 border border-gray-100 rounded-[2rem] p-6 pb-8 shadow-lg flex flex-col text-left font-poppins">
+        <div className="card-item">
+        <h3 className="text-xl font-bold text-[#0F172A] mb-1">Enterprise</h3>
+    
+        <p className="text-gray-600 text-[11px] mb-4">For teams and businesses</p>
+    
+        <div className="flex items-baseline mb-5">
+        <span className="text-3xl font-bold text-[#0F172A]">$99</span>
+        <span className="text-xs font-medium text-gray-600 ml-1">/Month</span>
+        </div>
+
+   
+        <ul className="space-y-0.5 mb-6">
+        <li className="flex items-center text-gray-600 text-xs">
+        <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+        Everything in Pro
+         </li>
+         <li className="flex items-center text-gray-600 text-xs">
+        <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+        Team collaboration
+        </li>
+        <li className="flex items-center text-gray-600 text-xs">
+        <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+        Custom integrations
+        </li>
+        <li className="flex items-center text-gray-600 text-xs">
+        <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+        Dedicated support
+       </li>
+       <li className="flex items-center text-gray-600 text-xs">
+        <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+        SLA guarantee
+       </li>
+       <li className="flex items-center text-gray-600 text-xs">
+        <span className="material-symbols-outlined text-green-500 mr-2 text-base">check</span>
+        Custom branding
+       </li>
+        </ul>
+       </div>
+  
+ 
+       <button className="w-full py-3 bg-linear-to-r from-[#4F39F6] to-[#b23fc5] text-white rounded-full font-bold text-sm shadow-md mt-auto mb-2">
+       Contact Sales
+       </button>
+      </div>
+
+        </div>
+      </div>
+     </div>
     </>
   );
 }
