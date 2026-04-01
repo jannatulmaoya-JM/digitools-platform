@@ -584,7 +584,45 @@ function App() {
 
         </div>
       </div>
-     </div>
+    </div>
+        {/* workflow section  */}
+       
+
+ <div className="workflow w-full py-16 bg-linear-to-r from-[#4F39F6] to-[#b23fc5] text-white font-poppins px-6">
+  <div className="workflow-Container max-w-4xl mx-auto flex flex-col items-center text-center">
+    
+
+    <div className="workflow-content mb-6">
+      <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
+        Ready To Transform Your Workflow?
+      </h2>
+      <p className="text-sm md:text-base opacity-90 leading-relaxed max-w-xl mx-auto">
+        Join thousands of professionals who are already using Digitools to work smarter. <br className="hidden md:block" /> 
+        Start your free trial today.
+      </p>
+    </div>
+
+ 
+    <div className="flex flex-col sm:flex-row gap-3 mb-6">
+      <button className="px-8 py-3 bg-white text-[#4F39F6] rounded-full font-bold text-base shadow-lg transition-all active:scale-95">
+        Explore Products
+      </button>
+      
+      <button className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-full font-bold text-base hover:bg-white hover:text-[#4F39F6] transition-all active:scale-95">
+        View Pricing
+      </button>
+    </div>
+
+    <p className="text-[12px] md:text-sm opacity-80 flex flex-wrap justify-center items-center gap-2">
+      <span>14-day free trial</span> 
+      <span className="hidden sm:inline">•</span> 
+      <span>No credit card required</span> 
+      <span className="hidden sm:inline">•</span> 
+      <span>Cancel anytime</span>
+    </p>
+
+  </div>
+</div>
     </>
   );
 }
