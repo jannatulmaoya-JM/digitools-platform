@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import bannerImg from '../images/assets/banner.png';
 
 import './App.css'
 
 function App() {
   return (
     <>
-      
+       {/* nabver  */}
+
       <div className="navbar bg-base-100 shadow-sm px-4 lg:px-20 font-poppins"> 
         
         <div className="navbar-start">
@@ -41,6 +43,59 @@ function App() {
         </div>
         
       </div>
+{/* banner section */}
+
+    <div className="banner bg-white py-10 lg:py-20">
+    
+      <div className="bannerContainer mx-auto max-w-7xl px-4 lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-10">
+        
+      
+       <div className="bannerContent flex-1 text-left">
+          <div className="inline-flex items-center gap-2 bg-[#EEF4FF]   px-3 py-1.5 rounded-full mb-6">
+            <div className="flex items-center justify-center w-4 h-4  rounded-full border-2 border-[#4F39F6]">
+              <div className="w-1.5 h-1.5 bg-[#4F39F6] rounded-full"> 
+              </div>
+            </div>
+            <span className="text-[#4F39F6] text-sm font-semibold">
+               New: AI-Powered Tools Available
+            </span>
+         </div>
+
+          <h2 className='font-extrabold text-4xl lg:text-6xl text-  [#101727] leading-tight'>
+            Supercharge Your <br/> Digital Workflow
+          </h2>
+          
+          <p className='text-gray-500 my-6 text-lg'>
+            Access premium AI tools, design assets, templates, and productivity <br className="hidden lg:block" />
+            software—all in one place. Start creating faster today.
+          </p> 
+          
+          <div className="flex gap-4">
+             <a className="btn rounded-full px-8 h-12 w-52 text-white  border-none font-semibold text-lg bg-linear-to-r from-[#4F39F6] to-[#b23fc5]">
+               Explore Products
+             </a>
+           
+             <a className="flex items-center h-12 w-52 gap-2 px-8  py-3    rounded-full  border border-[#4F39F6] font-semibold text-lg  text-[#4F39F6] hover:bg-purple-50 transition-all">
+             <span className="material-symbols-outlined ">
+              play_arrow
+              </span>
+              <span>Watch Demo</span>
+             </a>
+          </div>
+        </div>
+
+       
+        <div className="bannerImage flex-1">
+          <img 
+            src={bannerImg} 
+            alt="Banner" 
+            className="w-full h-auto object-cover rounded-2xl shadow-xl" 
+          />
+        </div>
+
+      </div>
+    </div>
+  
     </>
   )
 }
