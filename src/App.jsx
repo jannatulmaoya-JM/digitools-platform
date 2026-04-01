@@ -45,12 +45,9 @@ function App() {
       </div>
 {/* banner section */}
 
-    <div className="banner bg-white py-10 lg:py-20">
-    
-      <div className="bannerContainer mx-auto max-w-7xl px-4 lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-10">
-        
-      
-       <div className="bannerContent flex-1 text-left">
+  <div className="banner bg-white py-10 lg:py-20">
+    <div className="bannerContainer mx-auto max-w-7xl px-4 lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-10">
+      <div className="bannerContent flex-1 text-left">
           <div className="inline-flex items-center gap-2 bg-[#EEF4FF]   px-3 py-1.5 rounded-full mb-6">
             <div className="flex items-center justify-center w-4 h-4  rounded-full border-2 border-[#4F39F6]">
               <div className="w-1.5 h-1.5 bg-[#4F39F6] rounded-full"> 
@@ -64,7 +61,7 @@ function App() {
           <h2 className='font-extrabold text-4xl lg:text-6xl text-  [#101727] leading-tight'>
             Supercharge Your <br/> Digital Workflow
           </h2>
-          
+
           <p className='text-gray-500 my-6 text-lg'>
             Access premium AI tools, design assets, templates, and productivity <br className="hidden lg:block" />
             software—all in one place. Start creating faster today.
@@ -95,6 +92,25 @@ function App() {
 
       </div>
     </div>
+{/* stars section */}
+
+    <div className="w-full h-50 bg-linear-to-r from-[#4F39F6] to-[#b23fc5] py-14 text-white">
+      <div className="flex flex-col md:flex-row text-center max-w-6xl mx-auto items-center">
+        <div className="flex-1 py-4">
+         <h2 className="text-5xl font-bold">50K+</h2>
+         <p className="text-xl opacity-80 mt-2">Active Users</p>
+       </div>
+        <div className="flex-1 py-4 border-y md:border-y-0 md:border-x border-white/20">
+         <h2 className="text-5xl font-bold">200+</h2>
+         <p className="text-xl opacity-80 mt-2">Premium Tools</p>
+       </div>
+        <div className="flex-1 py-4">
+         <h2 className="text-5xl font-bold">4.9</h2>
+         <p className="text-xl opacity-80 mt-2">Rating</p>
+       </div>
+
+      </div> 
+   </div>
   
     </>
   )
