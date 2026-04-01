@@ -152,6 +152,9 @@
 // 
 import { useState } from 'react';
 import bannerImg from '../images/assets/banner.png'; 
+import userIcon from '../images/assets/user.png';    
+import packageIcon from '../images/assets/package.png';
+import rocketIcon from '../images/assets/rocket.png';
 import './App.css';
 
 function App() {
@@ -388,6 +391,63 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* Steps Section */}
+    <div className="steps w-full py-[120px] px-[20px] lg:px-[200px] bg-gray-50 font-poppins">
+      <div className="steps-Container flex flex-col items-center">
+        <div className="steps-Content text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#0F172A] mb-4">
+            Get Started In 3 Steps
+          </h2>
+          <p className="text-lg text-[#0F172A] opacity-80 max-w-2xl mx-auto">
+            Start using premium digital tools in minutes, not hours.
+          </p>
+        </div>
+
+        <div className="steps-Card grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+
+          <div className="card-item relative bg-white border border-gray-100 rounded-[2rem] p-10 flex flex-col items-center text-center shadow-lg">
+            <span className="absolute top-6 right-8 bg-[#4F39F6] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">
+              01
+            </span>
+            <div className="w-20 h-20 bg-purple-50 rounded-full flex items-center justify-center mb-8">
+              <img src={userIcon} alt="User" className="w-10 h-10 object-contain" />
+            </div>
+            <h3 className="text-2xl font-bold text-[#0F172A] mb-4">Create Account</h3>
+            <p className="text-gray-500 text-sm leading-relaxed max-w-[220px]">
+              Sign up for free in seconds. <br /> No credit card required.
+            </p>
+          </div>
+
+          <div className="card-item relative bg-white border border-gray-100 rounded-[2rem] p-10 flex flex-col items-center text-center shadow-lg">
+            <span className="absolute top-6 right-8 bg-[#4F39F6] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">
+              02
+            </span>
+            <div className="w-20 h-20 bg-purple-50 rounded-full flex items-center justify-center mb-8">
+              <img src={packageIcon} alt="Package" className="w-10 h-10 object-contain" />
+            </div>
+            <h3 className="text-2xl font-bold text-[#0F172A] mb-4">Choose Products</h3>
+            <p className="text-gray-500 text-sm leading-relaxed max-w-[220px]">
+              Browse our premium catalog <br /> and select your tools.
+            </p>
+          </div>
+
+          <div className="card-item relative bg-white border border-gray-100 rounded-[2rem] p-10 flex flex-col items-center text-center shadow-lg">
+            <span className="absolute top-6 right-8 bg-[#4F39F6] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">
+              03
+            </span>
+            <div className="w-20 h-20 bg-purple-50 rounded-full flex items-center justify-center mb-8">
+              <img src={rocketIcon} alt="Rocket" className="w-10 h-10 object-contain" />
+            </div>
+            <h3 className="text-2xl font-bold text-[#0F172A] mb-4">Start Creating</h3>
+            <p className="text-gray-500 text-sm leading-relaxed max-w-[220px]">
+              Download and start using <br /> your tools immediately.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
     </>
   );
 }
