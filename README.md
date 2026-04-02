@@ -1,16 +1,30 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# DigiTools - Plateform
 
-Currently, two official plugins are available:
+DigiTools is a simple yet powerful e-commerce landing page built for creators. It allows users to browse premium digital products like AI writing tools, design packs, and automation kits, and manage them through an interactive shopping cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
+Building this project was all about creating a smooth user experience. Whether you're looking for a resume builder or social media kits, DigiTools organizes everything in a clean, professional layout. The goal was to make digital shopping fast, responsive, and easy to navigate.
 
-## React Compiler
+## 🛠️ Tech Stack
+To keep the performance high and the code clean, I used:
+* **React.js** - For building the interactive UI and state management.
+* **Tailwind CSS** - For modern, custom styling and responsiveness.
+* **React-Toastify** - To give users instant feedback (pop-up alerts).
+* **JavaScript (ES6)** - For handling the cart logic and filtering.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Top 3 Features
 
-## Expanding the ESLint configuration
+* **Smart Shopping Cart:** You can add or remove products instantly. The cart calculates the total price automatically, and it won't let you add the same item twice!
+* **Interactive UI/UX:** I used React `useState` to switch between the "Product Gallery" and the "Checkout View" without any page reloads.
+* **Instant Notifications:** Every time you add or remove an item, a nice toast notification pops up to let you know the action was successful.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### How to Run This Locally
+1. Clone the repo: `git clone https://github.com/yourusername/digitools.git`
+2. Install packages: `npm install`
+3. Start the app: `npm start`
+
+**Developed by [Jannatul Maoya]**
+**Email  [jannatulmaoyacmt@gmail.com]**
